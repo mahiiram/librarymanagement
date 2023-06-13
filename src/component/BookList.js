@@ -16,7 +16,7 @@ function BookList() {
       method: "GET",
     })
       .then((response) => response.json())
-      .then((result) => setBook(result.books));
+      .then((result) => setBook(result));
 
       
   };
